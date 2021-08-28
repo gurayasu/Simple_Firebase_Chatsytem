@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirebaseChatApp</title>
+</head>
+<body>
+
+<div>
+    <div>名前<input autocomplete="off" type="text" id="username"></div>
+    <div>
+        <textarea name="" id="text" rows="5"></textarea>
+        <button id="send">送信</button>
+    </div>
+    <div id="output"></div>
+</div>
+
+
+
+<!-- JQ -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Javascript(Firebase) -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
